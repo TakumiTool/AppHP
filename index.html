@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tt-sugar アプリ サポート</title>
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --text-color: #333333;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e9ecef;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.8rem;
+        }
+
+        header p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            gap: 1rem;
+        }
+
+        .app-card {
+            display: block;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            color: inherit;
+            text-decoration: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .app-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .app-card h2 {
+            margin: 0 0 0.3rem 0;
+            font-size: 1.3rem;
+            color: var(--primary-color);
+        }
+
+        .app-card p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>tt-sugar アプリ サポート</h1>
+        <p>各アプリのサポート・プライバシーポリシー・利用規約</p>
+    </header>
+
+    <div class="container">
+        <a class="app-card" href="ttAr_HP.html">
+            <h2>TT_AR</h2>
+            <p>サポート＆プライバシーポリシー</p>
+        </a>
+
+        <a class="app-card" href="ttMemo_HP.html">
+            <h2>TT_Memo</h2>
+            <p>サポート＆プライバシーポリシー</p>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 tt-sugar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
