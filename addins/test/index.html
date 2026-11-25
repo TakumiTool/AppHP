@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test.txt の使い方 - TakumiTool</title>
+    <link rel="icon" type="image/png" href="../../assets/favicon.png">
+    <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/site.css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-base="../../">
+
+    <header class="topbar">
+        <div class="wrap">
+            <a class="brand" href="../../index.html"><img src="../../assets/favicon.png" alt="" width="36" height="36">TakumiTool</a>
+            <nav>
+                <a class="nav-text" href="../../index.html#apps">アプリ</a>
+                <a class="nav-text" href="../" aria-current="page">拡張アドイン</a>
+                <a class="nav-text" href="../../index.html#contact">お問い合わせ</a>
+                <a href="https://x.com/TakumiTool" target="_blank" rel="noopener" aria-label="X（旧Twitter）">
+                    <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- アドインの使い方ページのひな形。新しいアドインは、このフォルダごとコピーして中身を書き換える。 -->
+    <section class="page-hero">
+        <div class="wrap">
+            <p class="crumbs"><a href="../../index.html">トップ</a><span>/</span><a href="../">拡張アドイン</a><span>/</span>test.txt</p>
+            <div class="page-title">
+                <img src="../../assets/sample-icon.svg" alt="" width="84" height="84">
+                <div>
+                    <span class="num">ADD-IN</span>
+                    <h1>test.txt</h1>
+                    <p>ダウンロードリンクの動作確認用テキストファイル</p>
+                </div>
+            </div>
+        </div>
+        <svg class="waves waves-to-paper" viewBox="0 24 150 28" preserveAspectRatio="none" aria-hidden="true">
+            <defs><path id="wave" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"/></defs>
+            <use href="#wave" x="48" y="0"/>
+            <use href="#wave" x="48" y="3"/>
+            <use href="#wave" x="48" y="5"/>
+            <use href="#wave" x="48" y="7"/>
+        </svg>
+    </section>
+
+    <nav class="subnav" aria-label="ページ内の目次">
+        <div class="wrap">
+            <a href="#overview">概要</a>
+            <a href="#download">ダウンロード</a>
+            <a href="#usage">使い方</a>
+            <a href="#requirements">動作環境</a>
+            <a href="#faq">よくある質問</a>
+        </div>
+    </nav>
+
+    <main class="doc wrap">
+
+        <section class="doc-card" id="overview">
+            <h2><span class="num">OVERVIEW</span>概要</h2>
+            <p>test.txt は、拡張アドインのダウンロードと使い方ページの動作を確認するためのテスト用ファイルです。中身は 1 行のテキストのみで、端末や他のアプリに影響はありません。</p>
+        </section>
+
+        <section class="doc-card" id="download">
+            <h2><span class="num">DOWNLOAD</span>ダウンロード</h2>
+            <table class="spec">
+                <tr><th>ファイル名</th><td>test.txt</td></tr>
+                <tr><th>形式</th><td>テキストファイル（UTF-8）</td></tr>
+                <tr><th>更新日</th><td>2026年10月24日</td></tr>
+            </table>
+            <p class="download-row"><a class="pill" href="test.txt" download>test.txt をダウンロード</a></p>
+        </section>
+
+        <section class="doc-card" id="usage">
+            <h2><span class="num">HOW TO USE</span>使い方</h2>
+            <ol class="steps">
+                <li><strong>ファイルをダウンロードする</strong>上の「test.txt をダウンロード」ボタンを押して、ファイルを保存します。</li>
+                <li><strong>ファイルを開く</strong>iPhone・iPad では「ファイル」アプリのダウンロードフォルダ、パソコンではダウンロードフォルダから test.txt を開きます。</li>
+                <li><strong>内容を確認する</strong>「これはダウンロードリンクのテスト用ファイルです。」と表示されれば、ダウンロードは正常に完了しています。</li>
+            </ol>
+        </section>
+
+        <section class="doc-card" id="requirements">
+            <h2><span class="num">REQUIREMENTS</span>動作環境</h2>
+            <table class="spec">
+                <tr><th>対応端末</th><td>iPhone・iPad・Mac・Windows パソコンなど</td></tr>
+                <tr><th>必要なアプリ</th><td>テキストファイルを開けるアプリ（「ファイル」アプリ、メモ帳など）</td></tr>
+            </table>
+        </section>
+
+        <section class="doc-card" id="faq">
+            <h2><span class="num">FAQ</span>よくある質問</h2>
+            <h3>ダウンロードボタンを押しても保存されません</h3>
+            <p>ブラウザによっては、ファイルが新しいタブで開くことがあります。その場合は共有メニューから「"ファイル"に保存」を選んでください。</p>
+            <h3>文字化けして表示されます</h3>
+            <p>ファイルは UTF-8 で保存されています。開くアプリの文字コード設定を UTF-8 にしてください。</p>
+            <div class="note-box">
+                <p>解決しない場合は <a href="mailto:sg.tatsuya@gmail.com">sg.tatsuya@gmail.com</a> までお問い合わせください。</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <a class="brand" href="../../index.html"><img src="../../assets/favicon.png" alt="" width="36" height="36">TakumiTool</a>
+            <div class="foot-right">
+                <a href="https://x.com/TakumiTool" target="_blank" rel="noopener" aria-label="X（旧Twitter）">
+                    <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <p>&copy; 2026 TakumiTool. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/site.js"></script>
+
+</body>
+</html>

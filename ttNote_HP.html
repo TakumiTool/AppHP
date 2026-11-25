@@ -3,151 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TT_Note サポート＆プライバシーポリシー</title>
-    <style>
-        :root {
-            --primary-color: #306AA1;
-            --text-color: #333333;
-            --bg-color: #f8f9fa;
-            --card-bg: #ffffff;
-            --border-color: #e9ecef;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: var(--card-bg);
-            border-bottom: 1px solid var(--border-color);
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0 0 0.5rem 0;
-            font-size: 1.8rem;
-        }
-
-        header p {
-            margin: 0;
-            color: #666;
-            font-size: 0.95rem;
-        }
-
-        nav {
-            background-color: var(--card-bg);
-            border-bottom: 1px solid var(--border-color);
-            position: sticky;
-            top: 0;
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            padding: 0.8rem;
-            font-size: 0.9rem;
-        }
-
-        nav a {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        section {
-            background: var(--card-bg);
-            border-radius: 8px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            border: 1px solid var(--border-color);
-        }
-
-        h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 0.5rem;
-            margin-top: 0;
-        }
-
-        h3 {
-            font-size: 1.1rem;
-            margin-top: 1.5rem;
-        }
-
-        ul {
-            padding-left: 1.2rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .contact-box {
-            background-color: #f1f5f9;
-            border-left: 4px solid var(--primary-color);
-            padding: 1rem;
-            margin-top: 1rem;
-            border-radius: 0 4px 4px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem 1rem;
-            color: #666;
-            font-size: 0.85rem;
-        }
-    </style>
+    <title>TT_Note サポート＆プライバシーポリシー - TakumiTool</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/site.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
-<body>
+<body data-base="">
 
-    <header>
-        <!-- アプリ名に変更してください -->
-        <h1>TT_Note サポートサイト</h1>
-        <p>プライバシーポリシー・利用規約</p>
+    <header class="topbar">
+        <div class="wrap">
+            <a class="brand" href="index.html"><img src="assets/favicon.png" alt="" width="36" height="36">TakumiTool</a>
+            <nav>
+                <a class="nav-text" href="index.html#apps" aria-current="page">アプリ</a>
+                <a class="nav-text" href="index.html#addins">拡張アドイン</a>
+                <a class="nav-text" href="index.html#contact">お問い合わせ</a>
+                <a href="https://x.com/TakumiTool" target="_blank" rel="noopener" aria-label="X（旧Twitter）">
+                    <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="#contact">お問い合わせ</a>
-        <a href="#privacy">プライバシーポリシー</a>
-        <a href="#terms">利用規約</a>
-        <a href="#products">アプリ・機能概要</a>
+    <section class="page-hero">
+        <div class="wrap">
+            <p class="crumbs"><a href="index.html">トップ</a><span>/</span><a href="index.html#apps">アプリ</a><span>/</span>TT_Note</p>
+            <div class="page-title">
+                <img src="assets/apps/ttnote-icon.png" alt="TT_Note のアイコン" width="84" height="84">
+                <div>
+                    <span class="num">SUPPORT</span>
+                    <h1>TT_Note</h1>
+                    <p>サポート・プライバシーポリシー・利用規約</p>
+                </div>
+            </div>
+        </div>
+        <svg class="waves waves-to-paper" viewBox="0 24 150 28" preserveAspectRatio="none" aria-hidden="true">
+            <defs><path id="wave" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"/></defs>
+            <use href="#wave" x="48" y="0"/>
+            <use href="#wave" x="48" y="3"/>
+            <use href="#wave" x="48" y="5"/>
+            <use href="#wave" x="48" y="7"/>
+        </svg>
+    </section>
+
+    <nav class="subnav" aria-label="ページ内の目次">
+        <div class="wrap">
+            <a href="#contact">お問い合わせ</a>
+            <a href="#privacy">プライバシーポリシー</a>
+            <a href="#terms">利用規約</a>
+            <a href="#products">アプリ・機能概要</a>
+        </div>
     </nav>
 
-    <div class="container">
+    <main class="doc wrap">
 
         <!-- 1. お問い合わせ (Contact) 【必須】 -->
-        <section id="contact">
-            <h2>お問い合わせ</h2>
+        <section class="doc-card" id="contact">
+            <h2><span class="num">CONTACT</span>お問い合わせ</h2>
             <p>アプリに関する不具合のご報告、ご質問、ご要望は下記のお問い合わせ先よりご連絡ください。</p>
-            
-            <div class="contact-box">
+            <div class="note-box">
                 <p><strong>■ お問い合わせ窓口</strong></p>
-                <!-- ご自身のメールアドレスやGoogleフォームのURLに書き換えてください -->
                 <p>メールアドレス: <a href="mailto:sg.tatsuya@gmail.com">sg.tatsuya@gmail.com</a></p>
             </div>
         </section>
 
         <!-- 2. プライバシーポリシー (Privacy Policy) 【必須】 -->
-        <section id="privacy">
-            <h2>プライバシーポリシー</h2>
+        <section class="doc-card" id="privacy">
+            <h2><span class="num">PRIVACY POLICY</span>プライバシーポリシー</h2>
             <p>TT_Note（以下、「本アプリ」）は、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
 
-            
             <!-- <h3>1. 収集する情報と収集方法</h3>
             <p>本アプリでは、機能提供およびサービス向上のため、以下の情報を取得する場合があります。</p>
             <ul>
@@ -170,13 +97,13 @@
 
             <h3>3. お問い合わせ窓口</h3>
             <p>本ポリシーに関するお問い合わせは、上記「お問い合わせ」窓口よりお願いいたします。</p>
-            
+
             <p><small>制定日：2026年10月21日</small></p>
         </section>
 
         <!-- 3. 利用規約 (Terms of Service) -->
-        <section id="terms">
-            <h2>利用規約</h2>
+        <section class="doc-card" id="terms">
+            <h2><span class="num">TERMS OF SERVICE</span>利用規約</h2>
             <p>本利用規約は、本アプリの利用条件を定めるものです。ユーザーの皆様は、本規約に従って本アプリをご利用ください。</p>
 
             <h3>1. 利用条件</h3>
@@ -194,8 +121,8 @@
         </section>
 
         <!-- 4. 商品・機能概要 (Products) -->
-        <section id="products">
-            <h2>アプリ・機能概要</h2>
+        <section class="doc-card" id="products">
+            <h2><span class="num">FEATURES</span>アプリ・機能概要</h2>
             <p>本アプリは、施工現場での作業効率化を目的としたメモアプリです。</p>
 
             <h3>主な機能</h3>
@@ -206,11 +133,21 @@
             </ul>
         </section>
 
-    </div>
+    </main>
 
     <footer>
-        <p>&copy; 2026 tt-sugar. All Rights Reserved.</p>
+        <div class="wrap">
+            <a class="brand" href="index.html"><img src="assets/favicon.png" alt="" width="36" height="36">TakumiTool</a>
+            <div class="foot-right">
+                <a href="https://x.com/TakumiTool" target="_blank" rel="noopener" aria-label="X（旧Twitter）">
+                    <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <p>&copy; 2026 TakumiTool. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="assets/site.js"></script>
 
 </body>
 </html>
